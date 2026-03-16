@@ -1,0 +1,6 @@
+body { font-family: 'Inter', sans-serif; background: #fdfbf7; text-align: center; margin: 0; }
+.hero { height: 100vh; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=80'); background-size: cover; display: flex; align-items: center; justify-content: center; color: white; }
+h1 { font-family: 'Cormorant Garamond', serif; font-size: 4rem; }
+.details { padding: 50px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 800px; margin: 0 auto; }
+.card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
